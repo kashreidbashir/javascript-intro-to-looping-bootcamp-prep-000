@@ -27,6 +27,6 @@ function maybeTrue() {
 function WhileLoop(array){
 let countdown = 100;
 
-while (countdown > 100);
+while (countdown < 100);
 
 console.log(--countdown);
