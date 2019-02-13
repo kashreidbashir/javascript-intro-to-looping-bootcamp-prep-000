@@ -20,13 +20,15 @@ function whileLoop(n){
 }
 
 
-
 function maybeTrue() {
   return Math.random() >= 0.5
 }
-function WhileLoop(array){
-let countdown = 100;
+function doWhileLoop(array){
+do {
+  array.pop()
+} while (array.length>0 && maybeTrue())
+return array
+}
 
-while (countdown < 100);
-
-console.log(--countdown);
+do_while_arr = ['a','b','c'];
+console.log(doWhileLoop(do_while_arr))
